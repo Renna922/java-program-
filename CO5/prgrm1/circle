@@ -1,0 +1,14 @@
+import java.awt.*;
+import java.applet.*;
+/*
+<applet code="Arcs" width=300 height=500>
+</applet>
+*/
+public class Arcs extends Applet{
+public void paint(Graphics g){
+g.setColor(Color.green);
+g.fillColor(Color.yellow);
+g.drawArc(50,90,110,120,56,89);
+g.drawArc(120,89,67,56,43,112);
+}
+}
